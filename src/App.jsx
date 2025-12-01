@@ -1,11 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NavbarComponent from "./components/NavbarComponent";
+import HomePage from "./pages/HomePage";
 
 function Home() {
   return (
     <div style={{ padding: "60px 24px" }}>
-      <h2>Home</h2>
+      <HomePage />
     </div>
   );
 }
